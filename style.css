@@ -1,0 +1,26 @@
+div{
+    display: inline;
+}
+
+article div{
+    color: yellow;
+    font-size: 2.5em;
+    
+}
+body{
+    background-color: black;
+}
+
+article span{
+    font-size: 2.5em;
+}
+span:hover {
+   
+     color:red;
+}
+span:hover~span {
+    color:white;
+}
+span:hover+span {
+    color: #f08eb1;
+}
